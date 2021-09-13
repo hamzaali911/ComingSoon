@@ -13,7 +13,7 @@ var countDownFunction = setInterval(function(){
   document.getElementById("time").innerHTML = d + "D: " + h + "H: " + m + "M: " + s + "S";
   if (distance < 0) {
     clearInterval(countDownFunction);
-    document.getElementById("time").innerHTML = "WELCOME";
+    document.getElementById("time").innerHTML = "Our Website is Under Construction.";
   }
   function addZero(a){
     if (a < 10) {
